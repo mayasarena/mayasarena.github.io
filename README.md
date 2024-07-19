@@ -8,4 +8,4 @@ A responsive personal portfolio website for showcasing my projects.
 - **Tailwind CSS** - Utility-first CSS framework
 
 ## Live Website
-[Click Here ✨](https://mayasarena.dev)
+[Click Here ✨](https://www.mayasarena.dev/)
