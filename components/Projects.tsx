@@ -6,15 +6,6 @@ import { useInView } from 'react-intersection-observer';
 
 const projects = [
   {
-    type: 'Game Development',
-    title: 'Bob the Unicorn',
-    description: 'A 2D platformer developed in Unity, where you embark on a quest to become the prettiest unicorn in unicorn land!',
-    tags: ['Unity', 'C#', 'Procreate'],
-    img: '/unicorn-img.png',
-    link: '/unicorn',
-    hoverCol: 'group-hover:text-[#5cc09f]',
-  },
-  {
     type: 'Software Development & UX Research',
     title: 'Study Tracker',
     description: 'Designed and implemented a self-tracking application to explore its impact on academic procrastination and study habits in university students.',
@@ -22,6 +13,15 @@ const projects = [
     img: '/studytracker-img.png',
     link: '/study-tracker',
     hoverCol: 'group-hover:text-[#9d97f8]',
+  },
+  {
+    type: 'Game Development',
+    title: 'Bob the Unicorn',
+    description: 'A 2D platformer developed in Unity, where you embark on a quest to become the prettiest unicorn in unicorn land!',
+    tags: ['Unity', 'C#', 'Procreate'],
+    img: '/unicorn-img.png',
+    link: '/unicorn',
+    hoverCol: 'group-hover:text-[#5cc09f]',
   },
   {
     type: 'UX Design',
@@ -85,6 +85,7 @@ export default function Projects() {
           {/* projects header - link to switch between dev and ux projects */}
           <div className="flex flex-col gap-4 md:flex-row md:gap-10">
             <h2 className="text-3xl font-medium font-poppins text-primary">Projects</h2>
+            {/* Project buttons to switch - commented out for now bc not in use
             <div className="flex flex-row gap-8">
               <button
                 onClick={() => handleSwitchProjectType('dev')}
@@ -99,6 +100,7 @@ export default function Projects() {
                 UX Design
               </button>
             </div>
+            */}
           </div>
           <div className="flex flex-col justify-between gap-20 pt-[50px]">
             {projects

@@ -14,7 +14,10 @@ export default function Footer() {
         {/* social Links */}
         <SocialLinks />
         {/* footer details */}
-        <p className="text-sm text-medgrey">Created by <a className='text-primary' href='https://github.com/mayasarena.github.io'>me</a>. Designed in Figma and built with Next.js & TailwindCSS. Best viewed on Desktop.</p>
+        <p className="text-sm text-medgrey">Created by <a className="text-primary hover:underline" href='https://github.com/mayasarena' target="_blank" rel="noopener noreferrer">
+          me
+        </a>
+        . Designed in Figma and built with Next.js & TailwindCSS. Best viewed on Desktop.</p>
       </div>
     </footer>
   );
