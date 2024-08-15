@@ -29,7 +29,7 @@ export default function Home() {
           <br /><br />
           Note: Case study under construction.
         </p>}
-        caseStudyLink={'https://www.figma.com/proto/uPbgpPknt0mDTtZaBcS6ZO/studybud-Case-Study?page-id=0%3A1&node-id=1-11&viewport=315%2C3153%2C0.24&t=uF4foThQOzigbhc3-1&scaling=scale-down-width&content-scaling=fixed'}
+        links={''}
         img={'/studybud-img.png'} 
         nextProj={nextProj} 
         prevProj={prevProj}    
