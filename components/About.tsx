@@ -13,10 +13,10 @@ export default function About() {
                     <h1 className="text-4xl font-bold font-poppins text-black">Hi, I'm <span className="text-primary">Maya</span></h1>
                     <h2 className="text-3xl font-medium font-poppins text-darkgrey">Software Developer</h2>
                     <p className="text-base text-medgrey my-8">
-                    I enjoy creating fun, beautiful user experiences from start to finish. With a BSc in Computer Science and a Master of Computer Science in HCI, 
-                    I bring a comprehensive outlook into all stages of the development cycle. I have a diverse skillset in software development and I like to dabble in UX as well.
+                    Skilled in full-stack development, I have a passion for crafting intuitive, user-centered digital experiences.
+                    With a strong foundation in computer science and UX, I blend technical skills with creativity to build engaging, functional solutions. 
                     <br /><br />
-                    Outside of coding, I love to do art in all sorts of mediums, from digital drawing to traditional painting to scultping with polymore clay. I also like hiking up mountains!
+                    Outside of coding, I love to do art in all sorts of mediums, from digital drawing and traditional painting to scultping with polymore clay. I also like hiking up mountains!
                     </p>
                     <SocialLinks />
                 </div>

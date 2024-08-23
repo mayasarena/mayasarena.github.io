@@ -41,6 +41,14 @@ export default function Home() {
                         >
                             Source Code
                         </a>
+                        <a
+                            href="https://www.figma.com/design/rKBmdGYMLXwOexxbb68Oro/Mood-Garden?node-id=0-1&t=AIUkplFxqhzmLNN5-1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-white text-button px-8 py-4 rounded-sm bg-primary tracking-wider font-dm-mono uppercase hover:bg-secondary hover:text-primary transition duration-300"
+                        >
+                            Figma Design
+                        </a>
                 </div>
             }
             img={'/moodgarden-header.gif'} 
