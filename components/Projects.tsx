@@ -24,6 +24,15 @@ const projects = [
         hoverCol: 'group-hover:text-[#FFA1BD]',
     },
     {
+        type: 'Front-End Development',
+        title: 'SP Golf',
+        description: `A showcase site for golf services, featuring a responsive design, Instagram display integration, and a validated contact form.`,
+        tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+        img: '/spgolf-img.png',
+        link: '/sp-golf',
+        hoverCol: 'group-hover:text-[#CF874E]',
+    },
+    {
         type: 'Game Development',
         title: 'Bob the Unicorn',
         description: 'A 2D platformer developed in Unity, where you embark on a quest to become the prettiest unicorn in unicorn land!',

@@ -3,10 +3,10 @@ import { Project } from '@/types/Project';
 
 export default function Home() {
     const nextProj: Project = {
-        url: '/unicorn',
-        img: '/unicorn-img.png',
-        title: 'Bob the Unicorn',
-        type: 'Game Development'
+        url: '/sp-golf',
+        img: '/spgolf-img.png',
+        title: 'SP Golf',
+        type: 'Front-End'
     }
 
     const prevProj: Project = {

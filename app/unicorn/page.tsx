@@ -10,10 +10,10 @@ export default function Home() {
     }
 
     const prevProj: Project = {
-        url: '/mood-garden',
-        img: '/moodgarden-img.png',
-        title: 'Mood Garden',
-        type: 'Full-Stack'
+        url: '/sp-golf',
+        img: '/spgolf-img.png',
+        title: 'SP Golf',
+        type: 'Front-End'
     }
 
     return (
