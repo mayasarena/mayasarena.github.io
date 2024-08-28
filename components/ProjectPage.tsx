@@ -26,9 +26,9 @@ export default function ProjectPage({ title, subtitle, description, links, img, 
                         back home
                     </Link>
                 </div>
-                <div className="flex flex-col gap-6 md:flex-row lg:gap-12">
+                <div className="flex flex-col items-start gap-6 md:flex-row lg:gap-12">
                     {/* project img */}
-                    <div className="md:w-[50%] rounded-lg overflow-clip">
+                    <div className="md:w-[50%] aspect-[4/3] rounded-lg overflow-clip">
                         <img src={img} alt="Header Image" className="w-full h-full object-cover" />
                     </div>
                     <div className="relative md:w-[50%] flex flex-col gap-2">
