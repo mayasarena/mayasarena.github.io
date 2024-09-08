@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="">
           <main>
-            <div className="h-100vh overflow-auto">
+            <div className="w-100vw overflow-x-hidden h-100vh overflow-y-auto">
             {children}
             </div>
           </main>

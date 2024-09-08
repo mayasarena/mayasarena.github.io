@@ -25,11 +25,6 @@ export default function Home() {
             medium: 'Coloured Pencils and Markers'
         },
         {
-            url: '/art/at_2.png',
-            alt: 'Adventure Time Still',
-            medium: 'Coloured Pencils and Markers'
-        },
-        {
             url: '/art/at_3.png',
             alt: 'Adventure Time Still',
             medium: 'Coloured Pencils and Markers'
@@ -44,7 +39,11 @@ export default function Home() {
             alt: 'Kirby on a Nintendo Switch',
             medium: 'Coloured Pencils and Markers'
         },
-
+        {
+            url: '/art/bmo-keycap.png',
+            alt: 'BMO Keycap',
+            medium: 'Polymore Clay on a PBT Keycap'
+        },
     ]
 
     return (
